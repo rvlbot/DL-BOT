@@ -64,7 +64,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] DL BOT Scan Qrnya Nya Gan..`);
 });
 
 conn.on('credentials-updated', () =>
@@ -79,11 +79,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_its.rival`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_its.rival`)
 })
 
 conn.on('message-new', async(m) =>
@@ -554,7 +554,7 @@ if (text.includes("!namaninja")){
 const teks = text.replace(/!namaninja /, "")
 axios.get(`https://api.terhambar.com/ninja?nama=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
-    let hasil = `Nama Ninja kamu🙂:\n\n${res.data.result.ninja}`;
+    let hasil = `Nama Ninja kamu Sayang 😗 :\n\n${res.data.result.ninja}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
@@ -932,13 +932,13 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' , Follow Instagram Mimin Yah😻 : ' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
 }
 else if (text == '#menu1'){
-conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' , Follow Instagra' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, 'Comandnya *#help* Gan 🙂'  ,MessageType.text);
+conn.sendMessage(id, 'Comandnya *#help* Gan 🙂' ,MessageType.text);
 }
 else if (text == '#menu2'){
 conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
