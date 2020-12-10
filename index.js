@@ -932,22 +932,22 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, ' _Jangan Lupa Follow Ig : *_its.rival* 🥺' , Follow Instagram Mimin Yah😻 : ' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' , Follow Instagram Mimin Yah😻 : ' ,MessageType.text);
 }
 else if (text == '#menu1'){
-conn.sendMessage(id, ' _Jangan Lupa Follow Ig : *_its.rival* 🥺' , Follow Instagra' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' , Follow Instagra' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' _Comandnya *#help* Gan 🙂'  ,MessageType.text);
+conn.sendMessage(id, 'Comandnya *#help* Gan 🙂'  ,MessageType.text);
 }
 else if (text == '#menu2'){
-conn.sendMessage(id, ' _Jangan Lupa Follow Ig : *_its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
 }
 else if (text == '#menu3'){
-conn.sendMessage(id, ' _Jangan Lupa Follow Ig : *_its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
 }
 else if (text == '#menu4'){
-conn.sendMessage(id, ' _Jangan Lupa Follow Ig : *_its.rival* 🥺' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Ig : *its.rival* 🥺' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
